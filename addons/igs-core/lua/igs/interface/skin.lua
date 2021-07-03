@@ -43,7 +43,7 @@ IGS.S.COLORS = {
  	SOFT_LINE           = Color(50,50,50),
  	HARD_LINE           = Color(66,66,66),
 
- 	HIGHLIGHTING        = Color(230,130,35),
+ 	HIGHLIGHTING        = Color(230,130,35), 
  	HIGHLIGHT_INACTIVE  = Color(130,130,130),
 
  	TEXT_HARD           = Color(255,255,255),
@@ -54,7 +54,7 @@ IGS.S.COLORS = {
  	LOG_NORMAL          = Color(140,140,150),
 
  	ICON                = Color(255,255,255),
--- }
+ }
 
 IGS.col = IGS.S.COLORS
 
