@@ -54,7 +54,7 @@ IGS.S.COLORS = {
  	LOG_NORMAL          = Color(140,140,150),
 
  	ICON                = Color(255,255,255),
- }
+ } 
 
 IGS.col = IGS.S.COLORS
 
