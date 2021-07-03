@@ -1,3 +1,8 @@
+
+
+
+
+
 --[[------------------------------------------------------
 	Отобразится при первом открытии менюшки пополнения счета
 	https://img.qweqwe.ovh/1492376581692.png - вот так
@@ -15,7 +20,7 @@ IGS.C.AboutCurrencyText = [[
 Таким образом, если купить {currency_name} на 1000 руб, завтра может оказаться, что это самое количество будет стоить уже, например, 1200 руб и вы купили их с выгодой (купили за 1000 то, что теперь другие должны покупать за 1200)
 ]]
 
---[[
+
 function IGS.WIN.AboutCurrency(bHideClose)
 	local t = IGS.C.AboutCurrencyText:gsub("{currency_name}",IGS.C.CURRENCY_NAME)
 		:gsub("{currency_sign}",IGS.C.CURRENCY_SIGN)
@@ -31,7 +36,7 @@ function IGS.WIN.AboutCurrency(bHideClose)
 		end
 	end)
 end
---]]
+
 
 local function getReadCurrencyInfoStatus() -- true, если прочитано
 	return bib.get("igs:currency_read") == "1"

@@ -24,7 +24,7 @@ IGS.PermaSaveFeature("npc_igs")
 local function runAfterhooks() -- #todo перенести эти выполнения в модули или вызывать локально if CODEMOUNT
 	if (not IGS_MOUNT) or IGS.HOOKSFIRED then return end
 
-	--print("Выполнение 'опоздавших' хуков и spawnmenu_reload")
+	print("Выполнение 'опоздавших' хуков и spawnmenu_reload")
 	if CLIENT then -- костыль, но другого способа не вижу
 		hook.GetTable()["InitPostEntity"]["IGS.nw.InitPostEntity"]()
 		hook.GetTable()["DarkRPFinishedLoading"]["SupressDarkRPF1"]()
