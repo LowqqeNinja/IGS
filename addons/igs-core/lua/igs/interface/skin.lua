@@ -55,7 +55,7 @@ IGS.S.COLORS = {
 
  	ICON                = Color(255,255,255),
  } 
-
+ 
 IGS.col = IGS.S.COLORS
 
 -- https://img.qweqwe.ovh/1486557631077.png
