@@ -5,7 +5,7 @@
 ---------------------------------------------------------------------------]]
 
 IGS.S = IGS.S or {}
-
+--[[
 IGS.S.COLORS = {
 	FRAME_HEADER        = Color(55,55,55), -- Фон верхушки фреймов в т.ч. пополнения счета и т.д. https://img.qweqwe.ovh/1491950958825.png
 	ACTIVITY_BG         = Color(55,55,55), -- Фон в каждой вкладке (основной) https://img.qweqwe.ovh/1509370647204.png
@@ -29,32 +29,31 @@ IGS.S.COLORS = {
 	LOG_NORMAL          = Color(0,0,0),       -- В логах пополнения обычные записи
 
 	ICON                = Color(255,255,255), -- цвет иконок на плашечках
-}
+}]]
 
 -- Попытки сделать темный скин интерфейса
--- IGS.S.COLORS = {
--- 	FRAME_HEADER        = Color(23,23,23),
--- 	ACTIVITY_BG         = Color(13,13,13),
--- 	TAB_BAR             = Color(23,23,23),
+ IGS.S.COLORS = {
+ 	FRAME_HEADER        = Color(23,23,23),
+ 	ACTIVITY_BG         = Color(13,13,13),
+ 	TAB_BAR             = Color(23,23,23),
 
--- 	PASSIVE_SELECTIONS  = Color(23,23,23),
--- 	INNER_SELECTIONS    = Color(23,23,23),
+ 	PASSIVE_SELECTIONS  = Color(23,23,23),
+ 	INNER_SELECTIONS    = Color(23,23,23),
 
--- 	SOFT_LINE           = Color(50,50,50),
--- 	HARD_LINE           = Color(66,66,66),
+ 	SOFT_LINE           = Color(50,50,50),
+ 	HARD_LINE           = Color(66,66,66),
 
--- 	HIGHLIGHTING        = Color(230,130,35),
--- 	HIGHLIGHT_INACTIVE  = Color(130,130,130),
+ 	HIGHLIGHTING        = Color(230,130,35),
+ 	HIGHLIGHT_INACTIVE  = Color(130,130,130),
 
--- 	TEXT_HARD           = Color(255,255,255),
--- 	TEXT_SOFT           = Color(140,140,150),
--- 	TEXT_ON_HIGHLIGHT   = Color(255,255,255),
+ 	TEXT_HARD           = Color(255,255,255),
+ 	TEXT_SOFT           = Color(140,140,150),
+ 	TEXT_ON_HIGHLIGHT   = Color(255,255,255),
+ 	LOG_SUCCESS         = Color(76,217,100),
+ 	LOG_ERROR           = Color(255,45,85),
+ 	LOG_NORMAL          = Color(140,140,150),
 
--- 	LOG_SUCCESS         = Color(76,217,100),
--- 	LOG_ERROR           = Color(255,45,85),
--- 	LOG_NORMAL          = Color(140,140,150),
-
--- 	ICON                = Color(255,255,255),
+ 	ICON                = Color(255,255,255),
 -- }
 
 IGS.col = IGS.S.COLORS
